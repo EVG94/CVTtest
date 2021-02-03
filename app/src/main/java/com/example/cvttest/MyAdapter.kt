@@ -44,6 +44,7 @@ class MyAdapter(private val dataList: MutableList<Employee>) :
 
         } else {
 
+            
             nameEmployee?.text = "Name:" + data.name
             holder.itemView.setOnClickListener {
                 Toast.makeText(context, data.name, Toast.LENGTH_SHORT).show()
